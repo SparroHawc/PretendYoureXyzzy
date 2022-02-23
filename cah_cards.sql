@@ -682,6 +682,46 @@ COPY black_cards (id, draw, pick, text, watermark) FROM stdin;
 578	0	2	I need you like ____ needs ____.	WWW
 579	0	2	Such ____. Very ____. Wow.	WWW
 580	0	1	Nothing says "I love you" like ____.	WWW
+2625	0	1	The new Bendy cartoon will be about ____.	BENDY
+2626	0	1	Joey Drew has always had a natural talent for ____.	BENDY
+2627	0	1	Saving the world with the power of ____!	BENDY
+2628	0	1	Norman finally decided he needed to say something when he discovered ____.	BENDY
+2629	0	1	This latest kidnapping was the strangest yet. It involved ____ and ____.	BENDY
+2630	0	1	Instead of demonic ink, JDS is innovating new groundbreaking cartoon technology based on ____.	BENDY
+2631	0	1	We’d rather be animating, but instead we’re ____.	BENDY
+2632	0	1	When I want to keep the horrors at bay, I just try to focus on ____ instead.	BENDY
+2633	0	1	Magic may be real, but my strongest power has always been ____.	BENDY
+2634	0	1	It seemed like a good idea at the time but in retrospect ____ might not have been our best bet.	BENDY
+2635	0	1	____ - the perfect date plan!	BENDY
+2636	0	1	Who needs therapy when you can instead have ____?	BENDY
+2637	0	1	Girls night out got a little out of control once ____ got involved.	BENDY
+2638	0	1	What should be this year's Mardi gras festival theme?	BENDY
+2639	0	1	If you're unable to cast from your magic points, you can find a second magical energy supply hidden in your ____.	BENDY
+2640	0	1	Reach into your local boss and find ____!	BENDY
+2641	0	1	The real reason animators would be carrying guns: ____.	BENDY
+2642	0	1	____: An unforgettable Halloween experience.	BENDY
+2643	0	1	____: An unforgettable Valentine's Day experience.	BENDY
+2644	0	1	____: An unforgettable Coney Island experience.	BENDY
+2645	0	1	What did I sacrifice to the studio willpower bonding altar in the employee breakroom?	BENDY
+2646	0	1	____? It was just another minor setback.	BENDY
+2647	0	1	After surviving countless mind rending catastrophes, the biggest horror of all turned out to be ____.	BENDY
+2648	0	1	It turns out the new best way to summon spirits is to use ____.	BENDY
+2649	0	1	The biggest sanity hit of the session ended up being from ____.	BENDY
+2650	0	1	If Joey Drew is treating you to drinks and cake, it's probably because he's hiding ____.	BENDY
+2651	0	1	The question isn't "how many animators does it take to change out a lightbulb," it's whether or not you have ____.	BENDY
+2652	0	1	The last thing you were prepared for the Lurker request an explanation for: ____.	BENDY
+2653	0	1	Turns out that last door in Carcosa ended up leading straight to ____.	BENDY
+2654	0	1	Trust me, there’s a very legitimate reason to be afraid of ____.	BENDY
+2655	0	1	No company outing would be complete without ____.	BENDY
+2656	0	1	Over time I’ve come up with a sure-fire method for dealing with insomnia: ____.	BENDY
+2657	0	1	In an emergency, you can feed Henry your ____.	BENDY
+2658	0	1	The hip new way to assert dominance:  ____.	BENDY
+2659	0	1	In the end, the thing the cult was just not prepared for was  ____.	BENDY
+2660	0	1	The plan was going off without a hitch until ____.	BENDY
+2661	0	1	Sammy is perfectly easy to get along with, the secret is ____.	BENDY
+2662	0	1	LOOK, ____ seemed like a really good idea at the time!	BENDY
+2663	0	1	When the Masked Messenger asks me what I want, I’m going to say ____.	BENDY
+2664	0	1	You open up the safe and find ____.	BENDY
 \.
 
 
@@ -734,6 +774,8 @@ COPY card_set (id, active, base_deck, description, name, weight) FROM stdin;
 2131	t	f	Box Expansion Pack	Box Expansion Pack	30
 2152	t	f	Hidden Compartment Pack	Hidden Compartment Pack	30
 2374	t	f	PAX Prime 2014 Pack	PAX Prime 2014 Pack	107
+2623	t	f	Base Cards We Like	Base Cards We Like	6
+2624	t	f	Custom Cards	Custom Cards	250
 \.
 
 
@@ -1593,6 +1635,46 @@ COPY card_set_black_card (card_set_id, black_card_id) FROM stdin;
 572	573
 572	574
 572	575
+2624	2625
+2624	2626
+2624	2627
+2624	2628
+2624	2629
+2624	2630
+2624	2631
+2624	2632
+2624	2633
+2624	2634
+2624	2635
+2624	2636
+2624	2637
+2624	2638
+2624	2639
+2624	2640
+2624	2641
+2624	2642
+2624	2643
+2624	2644
+2624	2645
+2624	2646
+2624	2647
+2624	2648
+2624	2649
+2624	2650
+2624	2651
+2624	2652
+2624	2653
+2624	2654
+2624	2655
+2624	2656
+2624	2657
+2624	2658
+2624	2659
+2624	2660
+2624	2661
+2624	2662
+2624	2663
+2624	2664
 \.
 
 
@@ -5432,6 +5514,137 @@ COPY card_set_white_card (card_set_id, white_card_id) FROM stdin;
 2374	2365
 2374	2366
 2374	2367
+2624	2665
+2624	2666
+2624	2667
+2624	2668
+2624	2669
+2624	2670
+2624	2671
+2624	2672
+2624	2673
+2624	2674
+2624	2675
+2624	2676
+2624	2677
+2624	2678
+2624	2679
+2624	2680
+2624	2681
+2624	2682
+2624	2683
+2624	2684
+2624	2685
+2624	2686
+2624	2687
+2624	2688
+2624	2689
+2624	2690
+2624	2691
+2624	2692
+2624	2693
+2624	2694
+2624	2695
+2624	2696
+2624	2697
+2624	2698
+2624	2699
+2624	2700
+2624	2701
+2624	2702
+2624	2703
+2624	2704
+2624	2705
+2624	2706
+2624	2707
+2624	2708
+2624	2709
+2624	2710
+2624	2711
+2624	2712
+2624	2713
+2624	2714
+2624	2715
+2624	2716
+2624	2717
+2624	2718
+2624	2719
+2624	2720
+2624	2721
+2624	2722
+2624	2723
+2624	2724
+2624	2725
+2624	2726
+2624	2727
+2624	2728
+2624	2729
+2624	2730
+2624	2731
+2624	2732
+2624	2733
+2624	2734
+2624	2735
+2624	2736
+2624	2737
+2624	2738
+2624	2739
+2624	2740
+2624	2741
+2624	2742
+2624	2743
+2624	2744
+2624	2745
+2624	2746
+2624	2747
+2624	2748
+2624	2749
+2624	2750
+2624	2751
+2624	2752
+2624	2753
+2624	2754
+2624	2755
+2624	2756
+2624	2757
+2624	2758
+2624	2759
+2624	2760
+2624	2761
+2624	2762
+2624	2763
+2624	2764
+2624	2765
+2624	2766
+2624	2767
+2624	2768
+2624	2769
+2624	2770
+2624	2771
+2624	2772
+2624	2773
+2624	2774
+2624	2775
+2624	2776
+2624	2777
+2624	2778
+2624	2779
+2624	2780
+2624	2781
+2624	2782
+2624	2783
+2624	2784
+2624	2785
+2624	2786
+2624	2787
+2624	2788
+2624	2789
+2624	2790
+2624	2791
+2624	2792
+2624	2793
+2624	2794
+2624	2795
 \.
 
 
@@ -7481,6 +7694,137 @@ COPY white_cards (id, text, watermark) FROM stdin;
 2620	Game of Thrones spoilers.	WWW
 2621	Cat massage.	WWW
 2622	Matching with Mom on Tinder.	WWW
+2665	The Cthulhu Boys.	BENDY
+2666	Joey Drew.	BENDY
+2667	Henry Stein.	BENDY
+2668	Bendy, the Dancing Demon.	BENDY
+2669	Bendy the Lurker.	BENDY
+2670	Sammy Lawrence .	BENDY
+2671	Jack Fain.	BENDY
+2672	Peter Sunstram.	BENDY
+2673	Susie Campbell.	BENDY
+2674	Allison Pendle.	BENDY
+2675	Thomas Connor.	BENDY
+2676	Norman Polk.	BENDY
+2677	Grant Cohen as a Concept.	BENDY
+2678	The Masked Messenger.	BENDY
+2679	The Yellow King.	BENDY
+2680	Doc Moonlight (incompetent one sided nemisis) .	BENDY
+2681	Sammy's arms.	BENDY
+2682	Your really cute ex.	BENDY
+2683	Tying yourself to an eldritch artifact.	BENDY
+2684	Scampering.	BENDY
+2685	A very unsuspicious penpal.	BENDY
+2686	Henry's Blood.	BENDY
+2687	meowmeowmeowmeowmeowmeow	BENDY
+2688	Making yourself a better body out of ink.	BENDY
+2689	Starpools Juice.	BENDY
+2690	Space Juice (for not breathing).	BENDY
+2691	Angels.	BENDY
+2692	The alive boys.	BENDY
+2693	An unending void of glittering stars.	BENDY
+2694	Henry talking to himself.	BENDY
+2695	Beans the Cat.	BENDY
+2696	A really cool trench coat.	BENDY
+2697	Complaining into your audio diary.	BENDY
+2698	Adopting an eldritch horror.	BENDY
+2699	Getting kidnapped .	BENDY
+2700	Getting kidnapped and getting a free car.	BENDY
+2701	Unexpected headmates.	BENDY
+2702	My unsettling addiction to art supplies.	BENDY
+2703	Inevitable insanity.	BENDY
+2704	She smiles a little.	BENDY
+2705	The figure of ink that shines in the darkness.	BENDY
+2706	Unpacking the concept of “eat”.	BENDY
+2707	The convenience of Mind Control.	BENDY
+2708	A nice hat.	BENDY
+2709	The undeniable allure of suspenders.	BENDY
+2710	Mangling the french language.	BENDY
+2711	Failing to jump a fence.	BENDY
+2712	Laying face down in a swamp.	BENDY
+2713	Stacking nine magic potions.	BENDY
+2714	An unforgettable bar hopping experience except it's 9 shots of magic potions across multiple realities.	BENDY
+2715	Mind-rending magical powers.	BENDY
+2716	Head replacement.	BENDY
+2717	The Great Bertrum Piedmont.	BENDY
+2718	Going up the stairs on all fours.	BENDY
+2719	Cat based therapy.	BENDY
+2720	Everybody is Henry Stein.	BENDY
+2721	A very forgettable face.	BENDY
+2722	Not acknowledging the names of anyone we meet.	BENDY
+2723	Kleptomania.	BENDY
+2724	Bleeding on people to show you care.	BENDY
+2725	Astral projection.	BENDY
+2726	An increasing number of boyfriends.	BENDY
+2727	Being a harem game protagonist.	BENDY
+2728	Having a side hustle as supernatural investigators.	BENDY
+2729	Unrestrained Sarcasm.	BENDY
+2730	Clawed by an Angel.	BENDY
+2731	Give it up for Another Unforgettable Pun by Jack Fain, everyone!!	BENDY
+2732	Snake puns, or snuns.	BENDY
+2733	Making a scythe out of your soul.	BENDY
+2734	Throwing a snake across the room.	BENDY
+2735	Losing It™.	BENDY
+2736	Running guns, but by accident.	BENDY
+2737	The company assigned, mandatory to carry, can of bacon soup.	BENDY
+2738	“Work vacation.”	BENDY
+2739	The undeniable gay aura of Joey Drew.	BENDY
+2740	The undeniable gay aura of Joey Drew’s apartment.	BENDY
+2741	A New Jersey Accent.	BENDY
+2742	Not quitting your day job.	BENDY
+2743	Your partner turning into a cat sometime in the night.	BENDY
+2744	The ordeal of Talking to Wally Franks.	BENDY
+2745	Wally Franks’ digestion.	BENDY
+2746	Wally Franks.	BENDY
+2747	Demonic Possession.	BENDY
+2748	The best chocolate cake in the world.	BENDY
+2749	A completely normal slice of chocolate cake.	BENDY
+2750	Chocolate cake.	BENDY
+2751	Sincere Emotions (alt. Emotional honesty).	BENDY
+2752	This whole thing could have been a lot easier if everyone had cellphones, in theory.	BENDY
+2753	The correct lightbulb .	BENDY
+2754	Joey Drew “Having a Plan.”	BENDY
+2755	Not doing anything stupid.	BENDY
+2756	“Why Henry?”	BENDY
+2757	A mask without eye holes.	BENDY
+2758	Never having visited Coney Island.	BENDY
+2759	Trauma, but it's related to a very gay experience you want to keep, so you never really get over it.	BENDY
+2760	Never sleeping.	BENDY
+2761	Combat glomp.	BENDY
+2762	Reappearing tarot cards.	BENDY
+2763	Being stuck in a time loop.	BENDY
+2764	Walking around with your eyes closed.	BENDY
+2765	Trapping yourself in a safe.	BENDY
+2766	Getting into an argument with the cultist that lives in your head.	BENDY
+2767	Losing your voice.	BENDY
+2768	Being just that good at music.	BENDY
+2769	Truckloads of unprocessed trauma.	BENDY
+2770	Failure to Communicate.	BENDY
+2771	Refusing to talk about your feelings.	BENDY
+2772	Vacationing to another country to take your homosexual crush out to a bar.	BENDY
+2773	Invading the dreams of others.	BENDY
+2774	A really neat rock.	BENDY
+2775	An entire platter of tiny sandwiches, including the plate.	BENDY
+2776	Standing up from a table and passing out.	BENDY
+2777	Playing all the piano keys at once.	BENDY
+2778	A really cute bunny tail.	BENDY
+2779	A world that’s colorful.	BENDY
+2780	Having no shoes.	BENDY
+2781	Making really idiotic decisions.	BENDY
+2782	Being just extremely gay.	BENDY
+2783	Being incapable of shutting up.	BENDY
+2784	Lake Pontchartrain :).	BENDY
+2785	Pizazz.	BENDY
+2786	100 Bendy Masks.	BENDY
+2787	A banjo.	BENDY
+2788	The Yellow City of Lost Carcosa.	BENDY
+2789	Prophet’s sense of direction.	BENDY
+2790	Thren’s GM smile.	BENDY
+2791	Oh, y’know :)	BENDY
+2792	The biggest hack.	BENDY
+2793	a skinny guy in a mask who lives in your dreams and grants wishes.	BENDY
+2794	Ink.	BENDY
+2795	The Ink Machine.	BENDY
 \.
 
 
