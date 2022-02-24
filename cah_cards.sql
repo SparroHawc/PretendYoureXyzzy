@@ -196,8 +196,8 @@ COPY black_cards (id, draw, pick, text, watermark) FROM stdin;
 54	0	1	This season at Steppenwolf, Samuel Beckett's classic existential play: Waiting for ____.	US
 55	0	1	A recent laboratory study shows that undergraduates have 50% less sex after being exposed to ____.	US
 56	0	2	Introducing the amazing superhero/sidekick duo! It's ____ and ____!	US
-57	0	1	Mabe she's born with it. Maybe it's ____.	US
-58	0	2	They said we were crazy. They said we couldn't put ____ inside of ____. They were wrong.	US
+57	0	1	Maybe she's born with it. Maybe it's ____.	US
+58	0	2	They said we were crazy. They said we couldn't combine ____ and ____. They were wrong.	US
 59	0	1	Arby's: We Have ____.	US
 60	0	1	What will always get you laid?	US
 61	0	1	My fellow Americans: Before this decade is out, we <i>will</i> have ____ on the moon!	US
@@ -722,6 +722,7 @@ COPY black_cards (id, draw, pick, text, watermark) FROM stdin;
 2662	0	1	LOOK, ____ seemed like a really good idea at the time!	BENDY
 2663	0	1	When the Masked Messenger asks me what I want, I’m going to say ____.	BENDY
 2664	0	1	You open up the safe and find ____.	BENDY
+2811	0	1	Today may have been terrible, but it's nothing ____ can't cure!	BENDY
 \.
 
 
@@ -1635,6 +1636,37 @@ COPY card_set_black_card (card_set_id, black_card_id) FROM stdin;
 572	573
 572	574
 572	575
+2623	3
+2623	6
+2623	7
+2623	8
+2623	9
+2623	10
+2623	13
+2623	16
+2623	17
+2623	19
+2623	20
+2623	21
+2623	22
+2623	23
+2623	26
+2623	29
+2623	31
+2623	32
+2623	40
+2623	45
+2623	57
+2623	58
+2623	68
+2623	71
+2623	78
+2623	84
+2623	89
+2623	90
+2623	93
+2623	101
+2623	201
 2624	2625
 2624	2626
 2624	2627
@@ -1675,6 +1707,7 @@ COPY card_set_black_card (card_set_id, black_card_id) FROM stdin;
 2624	2662
 2624	2663
 2624	2664
+2624	2811
 \.
 
 
@@ -5514,6 +5547,75 @@ COPY card_set_white_card (card_set_id, white_card_id) FROM stdin;
 2374	2365
 2374	2366
 2374	2367
+2623	629
+2623	634
+2623	646
+2623	656
+2623	681
+2623	685
+2623	690
+2623	705
+2623	711
+2623	719
+2623	730
+2623	741
+2623	756
+2623	771
+2623	773
+2623	774
+2623	797
+2623	808
+2623	824
+2623	824
+2623	826
+2623	827
+2623	834
+2623	843
+2623	854
+2623	863
+2623	866
+2623	871
+2623	876
+2623	880
+2623	881
+2623	884
+2623	886
+2623	892
+2623	893
+2623	899
+2623	903
+2623	905
+2623	909
+2623	920
+2623	922
+2623	924
+2623	936
+2623	948
+2623	949
+2623	957
+2623	961
+2623	964
+2623	965
+2623	974
+2623	976
+2623	980
+2623	983
+2623	986
+2623	1003
+2623	1006
+2623	1013
+2623	1014
+2623	1028
+2623	1037
+2623	1049
+2623	1068
+2623	1071
+2623	1078
+2623	1340
+2623	1348
+2623	1401
+2623	1433
+2623	1446
 2624	2665
 2624	2666
 2624	2667
@@ -5645,6 +5747,22 @@ COPY card_set_white_card (card_set_id, white_card_id) FROM stdin;
 2624	2793
 2624	2794
 2624	2795
+2624	2796
+2624	2797
+2624	2798
+2624	2799
+2624	2800
+2624	2801
+2624	2802
+2624	2803
+2624	2804
+2624	2805
+2624	2806
+2624	2807
+2624	2808
+2624	2809
+2624	2810
+2624	2812
 \.
 
 
@@ -7825,6 +7943,22 @@ COPY white_cards (id, text, watermark) FROM stdin;
 2793	a skinny guy in a mask who lives in your dreams and grants wishes.	BENDY
 2794	Ink.	BENDY
 2795	The Ink Machine.	BENDY
+2796	Being good at everything.	BENDY
+2797	DREAMS!!	BENDY
+2798	Having a 69 in Charm.	BENDY
+2799	Symmetrical stab wounds.	BENDY
+2800	Coffee.	BENDY
+2801	Really short tennis shorts.	BENDY
+2802	A homoerotic tennis montage.	BENDY
+2803	New Orleans	BENDY
+2804	Having a tommy gun.	BENDY
+2805	Leaving a Joey-shaped hole in the wall.	BENDY
+2806	Hammering nails into footprints.	BENDY
+2807	A foot chase through a graveyard.	BENDY
+2808	A pit full of alligators.	BENDY
+2809	Wielding a dustpan.  With purpose.	BENDY
+2810	Trying to sacrifice your boss on the altar you made in his office.	BENDY
+2812	Emotional support mask.	BENDY
 \.
 
 
